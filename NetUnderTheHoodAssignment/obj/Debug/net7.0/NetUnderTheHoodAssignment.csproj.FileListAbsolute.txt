@@ -1,0 +1,14 @@
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\bin\Debug\net7.0\NetUnderTheHoodAssignment.exe
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\bin\Debug\net7.0\NetUnderTheHoodAssignment.deps.json
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\bin\Debug\net7.0\NetUnderTheHoodAssignment.runtimeconfig.json
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\bin\Debug\net7.0\NetUnderTheHoodAssignment.dll
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\bin\Debug\net7.0\NetUnderTheHoodAssignment.pdb
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.AssemblyInfoInputs.cache
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.AssemblyInfo.cs
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.csproj.CoreCompileInputs.cache
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.dll
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\refint\NetUnderTheHoodAssignment.dll
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.pdb
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.genruntimeconfig.cache
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\ref\NetUnderTheHoodAssignment.dll

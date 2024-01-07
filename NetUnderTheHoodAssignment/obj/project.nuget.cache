@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2INvx5eJHdlkd8D0IlPNw9XzwCGBuqrRdRdQg5ldFrD1JhpOyZw2l3PUXGjQjvj0L4SeIxqbwxFsXKJ939I3HQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\knapi\\RiderProjects\\NetUnderTheHoodAssignment\\NetUnderTheHoodAssignment\\NetUnderTheHoodAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\knapi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\knapi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\knapi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\knapi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
