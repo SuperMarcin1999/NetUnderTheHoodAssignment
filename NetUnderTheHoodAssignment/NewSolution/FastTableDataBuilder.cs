@@ -1,19 +1,16 @@
-﻿using System.Globalization;
-using CsvDataAccess.CsvReading;
+﻿using CsvDataAccess.CsvReading;
 using CsvDataAccess.Interface;
 
 namespace CsvDataAccess.NewSolution;
 
 public class FastTableDataBuilder : ITableDataBuilder
 {
-    private NumberStyles DecimalNumberStyle => NumberStyles.AllowLeadingSign | NumberStyles.AllowDecimalPoint;
-    private CultureInfo DecimalNumberCulture => CultureInfo.InvariantCulture;
     enum CellType
     {
         String,
         Bool,
         Int,
-        Decimal,
+        Floating,
         Null
     }
     
@@ -35,8 +32,8 @@ public class FastTableDataBuilder : ITableDataBuilder
                         var valueAsBool = ConvertCellToBool(cell);
                         creatingRow.addCellValue(column, valueAsBool);
                         break;
-                    case CellType.Decimal:
-                        var valueAsDecimal = ConvertCellToDecimal(cell);
+                    case CellType.Floating:
+                        var valueAsDecimal = ConvertCellToFloating(cell);
                         creatingRow.addCellValue(column, valueAsDecimal);
                         break;
                     case CellType.Int:
@@ -66,8 +63,8 @@ public class FastTableDataBuilder : ITableDataBuilder
             return CellType.Null;
         if (cell == "TRUE" || cell == "FALSE")
             return CellType.Bool;
-        if (cell.Contains(".") && decimal.TryParse(cell, DecimalNumberStyle, DecimalNumberCulture, out var _))
-            return CellType.Decimal;
+        if (cell.Contains(".") && float.TryParse(cell, NumberCulture.DecimalNumberStyle, NumberCulture.DecimalNumberCulture, out var _))
+            return CellType.Floating;
         if (int.TryParse(cell, out var valueAsInt))
             return CellType.Int;
 
@@ -80,6 +77,6 @@ public class FastTableDataBuilder : ITableDataBuilder
         => cell;
     private int ConvertCellToInt(string? cell)
         => int.Parse(cell);
-    private decimal ConvertCellToDecimal(string? cell)
-        => decimal.Parse(cell, DecimalNumberStyle, DecimalNumberCulture);
+    private float ConvertCellToFloating(string? cell)
+        => float.Parse(cell, NumberCulture.DecimalNumberStyle, NumberCulture.DecimalNumberCulture);
 }
