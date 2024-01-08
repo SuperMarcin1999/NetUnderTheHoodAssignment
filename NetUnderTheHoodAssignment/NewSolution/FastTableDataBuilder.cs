@@ -13,10 +13,11 @@ public class FastTableDataBuilder : ITableDataBuilder
         Floating,
         Null
     }
-    
+
     public ITableData Build(CsvData csvData)
     {
         var resultRows = new List<Row2>();
+
         foreach (var line in csvData.Rows)
         {
             var columnCounter = 0;

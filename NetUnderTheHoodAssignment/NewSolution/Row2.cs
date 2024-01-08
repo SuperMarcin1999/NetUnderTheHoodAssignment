@@ -1,4 +1,6 @@
-﻿namespace CsvDataAccess.NewSolution;
+﻿using System.Globalization;
+
+namespace CsvDataAccess.NewSolution;
 
 public class Row2
 {
@@ -25,7 +27,7 @@ public class Row2
         if (_intValues.TryGetValue(colName, out var valueInt))
             return valueInt;
         if (_floatValues.TryGetValue(colName, out var valueFloat))
-            return valueFloat.ToString();
+            return valueFloat.ToString(NumberCulture.DecimalNumberCulture);
 
         return null;
     }

@@ -27,3 +27,4 @@ C:\Users\knapi\source\repos\Projekt5BoxingUnboxing\NetUnderTheHoodAssignment\Net
 C:\Users\knapi\source\repos\Projekt5BoxingUnboxing\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.pdb
 C:\Users\knapi\source\repos\Projekt5BoxingUnboxing\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.genruntimeconfig.cache
 C:\Users\knapi\source\repos\Projekt5BoxingUnboxing\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\ref\NetUnderTheHoodAssignment.dll
+C:\Users\knapi\RiderProjects\NetUnderTheHoodAssignment\NetUnderTheHoodAssignment\obj\Debug\net7.0\NetUnderTheHoodAssignment.sourcelink.json

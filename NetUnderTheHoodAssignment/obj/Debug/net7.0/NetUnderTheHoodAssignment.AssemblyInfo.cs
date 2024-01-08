@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetUnderTheHoodAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb126ec25aa9000b63c33eb57480748c1ab15e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetUnderTheHoodAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetUnderTheHoodAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
